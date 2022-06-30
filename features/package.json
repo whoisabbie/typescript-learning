@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "tsc classes.ts",
     "run": "node classes.js",
-    "dev": "ts-node classes.ts",
+    "dev": "ts-node metadata.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^17.0.32",
+    "reflect-metadata": "^0.1.13",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
